@@ -1,0 +1,207 @@
+@media screen and (max-width: 480px) {
+    .header {
+        height: 845px;
+    }
+
+    .header-width {
+        flex-direction: column;
+        align-items: center;
+        width: 260px;
+    }
+    .logo {
+        margin-left: 55px;
+    }
+    .menu {
+        flex-direction: column;
+        height: 41px;
+        margin: 26px auto;
+        overflow: hidden;
+        width: 243px;
+    }
+    .menu:hover {
+        border: 1px solid #000;
+        border-radius: 10px;
+        background: rgba(63,50,71,0.7);
+        height: 246px;
+        overflow: visible;
+    }
+    .menu__item:hover {
+        background: rgba(43, 34, 49, 0.8);
+        }
+    .menu:hover .menu__item {
+        border-top: 1px solid #523f5a;
+        border-bottom: 1px solid #36283e;
+    }
+    .menu__item {
+        width: 243px;
+        height: 41px;
+        padding: 5px 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .menu li:first-child {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .menu li:last-child {
+        border-radius: 0 0 10px 10px;
+    }
+    .menu__link {
+        text-shadow: none;
+    }
+    /* ----------- Slider ------------ */
+    .slider {
+        margin-top: -643px;
+        height: 246px;
+    }
+    .slider-width {
+        display: flex;
+        margin: 0 0 0 0;
+        width: 430px;
+    }
+    .slider-text {
+        margin: 89px 0 0 23px;
+    }
+    .slider-text__caption {
+        margin: 0 0 0 0;
+        font-size: 36px;
+    }
+    .slider-text__slogan {
+        font-size: 18px;
+        height: 24px;
+        margin: 0 0 0 0;
+        width: 205px;
+    }
+    .slider-text__paragraph {
+        display: none;
+        margin: 0 0 0 0;
+    }
+    .slider-img__img {
+        height: 302px;
+        margin: -9px 0 0 20px;
+        width: 190px;
+    }
+    /* ----------- Purple ------------ */
+    .purple {
+        height: 599px;
+        margin-top: 99px;
+    }
+    .purple-width {
+        flex-direction: column;
+        margin: auto;
+        padding: 41px 0 0 47px;
+        width: 430px;
+    }
+    .rubric {
+        margin: 0 0 0 26px;
+        width: 155px;
+    }
+    .rubric__caption {
+        font-size: 24px;
+        margin: -33px 0 0 0;
+    }
+    .icon-tool {
+        margin: 36px 0 0 -25px;
+    }
+    .icon-dialog {
+        margin: 23px 0 0 -23px;
+    }
+    .icon-melody {
+        margin: 29px 0 0 -29px;
+    }
+    .rubric__text {
+        height: 72px;
+        width: 375px;
+    }
+    .rubric__link {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    /* ----------- White ------------ */
+    .white {
+        height: 785px;
+    }
+    .white-width {
+        flex-direction: column;
+        width: 430px;
+    }
+    .starts-here {
+        margin: 67px 0 0 -3px;
+        width: 441px;
+    }
+    .starts-here__caption {
+        display: flex;
+        font-size: 30px;
+        margin: 28px 0 0 62px;
+        width: 209px;
+    }
+    .starts-here__pink-font {
+        font-size: 30px;
+    }
+    .starts-here__text {
+        height: 180px;
+        font-size: 15.5px;
+        line-height: 1.5;
+        width: 340px;
+    }
+    .recent-updates {
+        margin: 66px 0 0 57px;
+    }
+    .admin-list__item {
+        height: 50px;
+        line-height: 1.5;
+        overflow: hidden;
+        width: 260px;
+    }
+    .recent-updates__link {
+        margin: 0 0 0 250px;
+    }
+    .partners {
+        background: url("../img/background-partners-480.jpg") 50% 50% no-repeat;
+        height: 205px;
+        padding: 28px 0 0 0;
+    }
+    .partners img {
+        display: none;
+    }
+    /* ----------- Grey ------------ */
+    .grey {
+        height: 669px;
+    }
+    .grey-width {
+        flex-direction: column;
+        width: 436px;
+    }
+    .rubric-grey {
+        height: 175px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 436px;
+    }
+    .rubric-grey__text {
+        height: 90px;
+        overflow: hidden;
+        width: 436px;
+    }
+    /* ----------- Footer ------------ */
+    footer {
+        height: 202px;
+    }
+    .footer-width {
+        display: flex;
+        flex-direction: column;
+        width: 436px;
+    }
+    .footer-menu {
+        margin: 0 auto;
+    }
+    .footer-menu__item {
+        margin: 0 0 0 18px;
+    }
+
+    .signature {
+        margin: 32px auto;
+    }
+}
+
+

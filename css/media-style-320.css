@@ -1,0 +1,129 @@
+@media screen and (max-width: 320px) {
+    .header {
+        height: 756px;
+    }
+    .header-width {
+        width: 280px;
+    }
+    .logo {
+        margin: 0 68px;
+    }
+    .menu {
+        margin: 26px 0 0 21px;
+    }
+
+    /* ----------- Slider ------------ */
+    .slider {
+        background: none;
+    }
+    .slider-width {
+        width: 280px;
+        margin: 0 0 0 0;
+    }
+    .slider-text {
+        margin: 89px 0 0 56px;
+    }
+    .slider-text__caption {
+        font-size: 36px;
+    }
+    .slider-text__slogan {
+        font-size: 18px;
+    }
+    .slider-text__paragraph {
+        display: none;
+    }
+    .slider-img__img {
+        display: none;
+    }
+    /* ----------- Purple ------------ */
+    .purple {
+        margin-top: 66px;
+    }
+    .purple-width {
+        margin: 0;
+        padding: 33px 0 0 13px;
+        width: 280px;
+    }
+    .rubric {
+        margin: 0 0 0 61px;
+    }
+    .icon-tool {
+        margin: 36px 0 0 10px;
+    }
+    .icon-dialog {
+        margin: 25px 0 0 10px;
+    }
+    .icon-melody {
+        margin: 42px 0 0 10px;
+    }
+    .rubric__text {
+        height: 71px;
+        width: 196px;
+    }
+    .rubric__link {
+        margin: 0 0 0 98px;
+    }
+    /* ----------- White ------------ */
+    .white-width {
+        width: 280px;
+    }
+    .starts-here {
+        margin: 65px 58px 0 0;
+        height: 273px;
+        width: 256px;
+    }
+    .starts-here__caption {
+        flex-direction: column;
+        font-size: 24px;
+    }
+    .starts-here__pink-font {
+        font-size: 24px;
+        margin-bottom: -8px;
+    }
+    .starts-here__text {
+        height: 165px;
+        width: 178px;
+    }
+    .recent-updates {
+        margin: 92px 0 0 0;
+    }
+    .admin-list__item {
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+    }
+
+    .admin-list__link {
+        height: 20px;
+        overflow: hidden;
+        width: 217px;
+    }
+    .admin-list__link--bold{
+        width: 152px;
+    }
+    .recent-updates__link {
+        margin: 0 0 0 188px;
+    }
+    .partners {
+        background: url("../img/background-partners-320.jpg") no-repeat;
+        height: 394px;
+        margin: 0 auto;
+    }
+    /* ----------- Grey ------------ */
+    .grey {
+        display: none;
+    }
+    /* ----------- Footer ------------ */
+    .footer-width {
+        margin: 0 0 0 0;
+        width: 280px;
+    }
+    .footer-menu {
+        display: none;
+    }
+    .signature {
+        margin: 38px 0 0 82px;
+    }
+}
+
+

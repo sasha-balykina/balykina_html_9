@@ -1,0 +1,337 @@
+.header-width {
+    background: red;
+    display: inline-block;
+}
+
+/* -----------Top Menu ------------ */
+.menu {
+    display: inline-block;
+
+}
+
+.menu__item {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.menu__link {
+    color: #fff;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.menu__item:hover {
+    border-bottom: 2px solid #edbfff;
+}
+/* ----------- Slider ------------ */
+.slider {
+    background: url("../img/slider-background.png");
+    height: 400px;
+    margin-top: -568px;
+}
+
+.slider-width {
+    display: inline-block;
+    width: 960px;
+    margin: auto;
+}
+
+.slider-text {
+    font-family: 'League Gothic', sans-serif;
+    margin: 32px 0 0 1px;
+    width: 520px;
+}
+
+.slider-text__caption {
+    color: #fff;
+    font-size: 60px;
+    margin: 40px 0 0 -2px;
+}
+
+.slider-text__slogan {
+    color: #edbfff;
+    font-size: 32px;
+    margin: -9px 0 0 -2px;
+}
+
+.slider-text__paragraph {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    margin: 0 0 0 -2px;
+    width: 505px;
+}
+
+.slider-img__img {
+    margin: -16px 0 0 93px;
+}
+/* ----------- Purple ------------ */
+.purple {
+    background: url("../img/purple-background.jpg");
+    border-top: 1px solid #000;
+    height: 340px;
+    margin-top: 168px;
+}
+
+.purple-width {
+    display: inline-block;
+    width: 960px;
+    margin: auto;
+    padding: 74px 0 0 70px;
+}
+
+.rubric {
+    margin: 0 0 0 26px;
+    width: 320px;
+}
+
+.icon-tool {
+    background: url(../img/sprite.png) 0 0 no-repeat;
+    height: 32px;
+    margin: 8px 0 0 -25px;
+    width: 35px;
+}
+
+.icon-dialog {
+    background: url(../img/sprite.png) -31px 0 no-repeat;
+    height: 30px;
+    margin: 8px 0 0 25px;
+    width: 37px;
+}
+
+.icon-melody {
+    background: url(../img/sprite.png) -62px 0 no-repeat;
+    height: 30px;
+    margin: 8px 0 0 25px;
+    width: 34px;
+}
+
+.rubric__caption {
+    color: #fff;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 30px;
+}
+
+.rubric__text {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    height: 141px;
+    line-height: 1.5;
+    margin: 5px 0 11px -1px;
+    overflow: hidden;
+    width: 215px;
+}
+
+.rubric__link {
+    color: #fff;
+    font-family: "League Gothic", sans-serif;
+    font-size: 18px;
+    margin: 24px 0 0 0;
+    padding: 0 0 0 159px;
+    text-decoration: none;
+}
+
+.rubric__link:hover {
+    text-shadow: 0 0 6px #fff;
+}
+/* ----------- White ------------ */
+.white {
+    background: #f9f9f9;
+    height: 485px;
+    margin-top: auto;
+}
+
+.white-width {
+    display: inline-block;
+    margin: auto;
+    width: 960px;
+}
+
+.starts-here {
+    background: url(../img/starts-here-background-photo.png) no-repeat;
+    height: 295px;
+    margin: 101px 58px 0 0;
+    width: 453px;
+}
+
+.starts-here__caption {
+    font-family: "League Gothic", sans-serif;
+    font-size: 30px;
+    margin: 26px 0 0 62px;
+}
+
+.starts-here__pink-font {
+    color: #edbfff;
+    font-family: "League Gothic", sans-serif;
+    font-size: 30px;
+}
+
+.starts-here__text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    height: 160px;
+    line-height: 1.5;
+    margin: 7px 0 0 61px;
+    text-align: left;
+    width: 350px;
+    word-break: break-all;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+
+.recent-updates {
+    margin: 126px 0 0 0;
+}
+
+.recent-updates__caption {
+    font-family: "League Gothic", sans-serif;
+    font-size: 30px;
+    margin: 0 0 0 0;
+}
+
+.admin-list {
+    list-style: none;
+    margin: 13px 0 0 0;
+}
+
+.admin-list__item {
+    background: url(../img/sprite-purple.png) 0 0 no-repeat;
+    height: 50px;
+    margin: 0 0 16px 0;
+    padding: 0 0 0 66px;
+}
+
+.admin-list__item--item-2 {
+    background: url(../img/sprite-purple.png) 0 -51px no-repeat;
+}
+
+.admin-list__item--item-3 {
+    background: url(../img/sprite-purple.png) 0 -106px no-repeat;
+}
+
+.admin-list__link {
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.admin-list__link--bold{
+    font-weight: bold;
+}
+
+.recent-updates__link {
+    color: #000;
+    font-family: "League Gothic", sans-serif;
+    font-size: 18px;
+    margin: 0 0 0 345px;
+    text-decoration: none;
+}
+
+.partners {
+    border: 1px solid #e6e6e6;
+    background: #f9f9f9;
+    height: 93px;
+    padding: 28px 0 0 245px;
+    width: auto;
+}
+/* ----------- Grey ------------ */
+.grey {
+    display: inline-block;
+    background: #ececec;
+    height: 398px
+}
+
+.grey-width {
+    display: inline-block;
+    margin: auto;
+    width: 960px;
+}
+
+.rubric-grey {
+    height: 203px;
+    margin: -6px 33px 0 26px;
+}
+
+.rubric-grey__caption {
+    font-family: "League Gothic", sans-serif;
+    font-size: 48px;
+}
+
+.rubric-grey__caption--smaller {
+    font-size: 30px;
+}
+
+.rubric-grey__caption--diff {
+    color: #b9b9b9;
+}
+
+.rubric-grey__sub-caption {
+    color: #c5c5c5;
+    font-family: Georgia, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    margin: 4px 0 0 0;
+}
+
+.rubric-grey__text {
+    color: #787878;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    height: 157px;
+    overflow: hidden;
+    margin: 10px 0 0 0;
+    width: 278px;
+}
+
+.rubric-grey__text--smaller {
+    height: 113px;
+    margin: 11px 0 0 0;
+}
+/* ----------- Footer ------------ */
+footer {
+    background: url(../img/background-foot-footer-960.jpg) no-repeat;
+    display: inline-block;
+    height: 114px;
+}
+
+.footer-width {
+    display: inline-block;
+    margin: auto;
+    width: 965px;
+}
+
+.footer-menu {
+    display: inline-block;
+}
+
+.footer-menu__item {
+    list-style: none;
+    margin: 0 37px 0 5px;
+
+}
+
+.footer-menu__link {
+    color: #fff;
+    font-family: "League Gothic", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 0 1px 6px #000;
+}
+
+.signature {
+    margin: 6px 0 0 258px;
+}
+
+.signature__text {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+}
+
+.signature__text--bold {
+    font-weight: bold;
+}
